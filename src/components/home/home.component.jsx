@@ -7,16 +7,12 @@ const Home = () => {
     <div className="home">
       <h1 className="heading">Ready for a smart future!</h1>
       <p className="para">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-        asperiores hic at rem? Incidunt rem doloremque enim a, deserunt odio
-        neque magni nemo minima libero quod aspernatur animi sint option?Lorem
-        ipsum dolor sit amet consectetur adipisicing elit. Expedita, ipsa.
-        Molestiae quo illo omnis, distinctio hic ipsum ratione. Cum doloribus
-        inventore corrupti blanditiis earum natus sint consequatur a itaque
-        aliquam?
+        Stay focused on creating engaging content experiences and impress
+        visitors with thoughtful usability, making their job (answering their
+        question) easier. — Duane Forrester
       </p>
       <button>
-        <p>Click Here</p>
+        <p>Know more!</p>
       </button>
     </div>
   );

@@ -9,7 +9,7 @@ const AboutClient = () => (
     <div className="statistics">
       <div className="stats">
         <span>15</span>
-        <span>Countries covered</span>
+        <span>Countries Covered</span>
       </div>
       <div className="stats">
         <span>2406</span>

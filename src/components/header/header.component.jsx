@@ -5,6 +5,8 @@ import PhoneInTalkOutlinedIcon from "@material-ui/icons/PhoneInTalkOutlined";
 
 import SportsVolleyballIcon from "@material-ui/icons/SportsVolleyball";
 
+import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
+
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -21,6 +23,20 @@ const Header = () => {
 
   return (
     <div ref={header_} className="header">
+      <div className="go-to-top">
+        <span
+          onClick={() => {
+            window.scrollTo({
+              top: 0,
+              left: 0,
+              behavior: "smooth",
+            });
+          }}
+        >
+          <ArrowUpwardIcon />
+        </span>
+      </div>
+
       <div className="upper">
         <div className="logo">
           <div className="icon">

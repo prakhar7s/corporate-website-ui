@@ -32,6 +32,7 @@
       opacity: 0;
       transition: 1s all;
       animation: fade-in 1s linear forwards;
+      user-select: none;
 
       @keyframes fade-in {
         100% {
