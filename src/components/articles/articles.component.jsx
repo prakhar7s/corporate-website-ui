@@ -12,7 +12,7 @@ const Articles = () => (
       </p>
       <p>My rule of thumb is build a site for a user, not a spider.</p>
       <div className="about-founder">
-        <span>Jogn Doe</span>
+        <span>John Smith</span>
         <p>Founder &amp; Diretor</p>
       </div>
     </div>
