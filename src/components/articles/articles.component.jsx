@@ -23,7 +23,8 @@ const Articles = () => (
           <img
             src="https://images.unsplash.com/photo-1460317442991-0ec209397118?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80"
             alt="building"
-          />
+          />{" "}
+          <button>Read More</button>
         </div>
         <h1>WHO WE ARE</h1>
         <p>
@@ -40,6 +41,7 @@ const Articles = () => (
             src="https://images.unsplash.com/photo-1430285561322-7808604715df?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80"
             alt="home"
           />
+          <button>Read More</button>
         </div>
         <h1>OUR RANKING</h1>
         <p>
