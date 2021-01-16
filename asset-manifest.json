@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/corporate-website-ui/static/css/main.02ad6c2c.chunk.css",
-    "main.js": "/corporate-website-ui/static/js/main.89fd60b7.chunk.js",
-    "main.js.map": "/corporate-website-ui/static/js/main.89fd60b7.chunk.js.map",
+    "main.css": "/corporate-website-ui/static/css/main.7a80ab3f.chunk.css",
+    "main.js": "/corporate-website-ui/static/js/main.0f9ebdfc.chunk.js",
+    "main.js.map": "/corporate-website-ui/static/js/main.0f9ebdfc.chunk.js.map",
     "runtime-main.js": "/corporate-website-ui/static/js/runtime-main.f2b83379.js",
     "runtime-main.js.map": "/corporate-website-ui/static/js/runtime-main.f2b83379.js.map",
     "static/js/2.456d6936.chunk.js": "/corporate-website-ui/static/js/2.456d6936.chunk.js",
@@ -10,11 +10,11 @@
     "static/js/3.59aac08b.chunk.js": "/corporate-website-ui/static/js/3.59aac08b.chunk.js",
     "static/js/3.59aac08b.chunk.js.map": "/corporate-website-ui/static/js/3.59aac08b.chunk.js.map",
     "index.html": "/corporate-website-ui/index.html",
-    "static/css/main.02ad6c2c.chunk.css.map": "/corporate-website-ui/static/css/main.02ad6c2c.chunk.css.map",
+    "static/css/main.7a80ab3f.chunk.css.map": "/corporate-website-ui/static/css/main.7a80ab3f.chunk.css.map",
     "static/js/2.456d6936.chunk.js.LICENSE.txt": "/corporate-website-ui/static/js/2.456d6936.chunk.js.LICENSE.txt",
     "static/media/airplane.6fdeb383.png": "/corporate-website-ui/static/media/airplane.6fdeb383.png",
     "static/media/airplane.81a30667.png": "/corporate-website-ui/static/media/airplane.81a30667.png",
-    "static/media/App.css": "/corporate-website-ui/static/media/background.a0e963d0.jpg",
+    "static/media/App.css": "/corporate-website-ui/static/media/background-new.35dffee0.jpg",
     "static/media/balloons.2f0e5023.png": "/corporate-website-ui/static/media/balloons.2f0e5023.png",
     "static/media/balloons.b6b85c1f.png": "/corporate-website-ui/static/media/balloons.b6b85c1f.png",
     "static/media/building.eb0b111f.png": "/corporate-website-ui/static/media/building.eb0b111f.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.f2b83379.js",
     "static/js/2.456d6936.chunk.js",
-    "static/css/main.02ad6c2c.chunk.css",
-    "static/js/main.89fd60b7.chunk.js"
+    "static/css/main.7a80ab3f.chunk.css",
+    "static/js/main.0f9ebdfc.chunk.js"
   ]
 }
