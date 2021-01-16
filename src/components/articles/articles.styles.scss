@@ -1,0 +1,108 @@
+.articles {
+  background: #f3f5f8;
+  height: 700px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  padding-top: 100px;
+
+  .founder {
+    width: 30%;
+
+    h1 {
+      color: #0046a7;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: rgb(78, 78, 78);
+      line-height: 27px;
+    }
+
+    .about-founder {
+      margin-top: 40px;
+      span {
+        color: #0046a7;
+        font-weight: bolder;
+        font-size: 16px;
+        text-transform: uppercase;
+      }
+      p {
+        color: rgba(0, 0, 0, 0.584);
+        font-size: 14px;
+      }
+    }
+  }
+
+  .articles-container {
+    width: 56%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .card {
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      min-height: 420px;
+      opacity: 0;
+      transition: 1s all;
+      animation: fade-in 1s linear forwards;
+
+      @keyframes fade-in {
+        100% {
+          opacity: 1;
+        }
+      }
+
+      .image {
+        width: 300px;
+        height: 220px;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        transition: 1s all;
+
+        &:hover {
+          filter: grayscale(10);
+          transform-origin: center;
+        }
+
+        img {
+          max-width: 100%;
+          min-height: 100%;
+          border-radius: 10px;
+          border: 3px solid rgba(255, 255, 255, 0.3);
+        }
+      }
+
+      h1 {
+        color: #0046a7;
+        font-weight: bolder;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin: 20px 0;
+      }
+
+      p {
+        color: rgb(78, 78, 78);
+        line-height: 27px;
+      }
+
+      button {
+        outline: none;
+        border: 0;
+        background: #0046a7;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        color: white;
+        font-weight: bolder;
+        margin-top: 20px;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+      }
+    }
+  }
+}

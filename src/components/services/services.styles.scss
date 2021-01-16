@@ -1,0 +1,24 @@
+.services {
+  background: rgb(8, 8, 82);
+  background-color: #537895;
+  background-image: linear-gradient(315deg, #07254f 0%, #07254f 74%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  padding-bottom: 80px;
+
+  h1 {
+    color: white;
+    margin: 50px;
+  }
+
+  .services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+    flex-wrap: wrap;
+  }
+}

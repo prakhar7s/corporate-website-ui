@@ -1,0 +1,242 @@
+.header {
+  height: 140px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 40px;
+  color: white;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  padding-top: 20px;
+  padding-left: 20px;
+  transition: 0.5s all;
+  animation: 1s fade-in linear forwards;
+
+  @keyframes fade-in {
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .upper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    color: rgb(255, 255, 255);
+    transition: 0.5s all;
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      justify-content: center;
+
+      .icon {
+        .MuiSvgIcon-root {
+          font-size: 40px;
+        }
+      }
+      .content {
+        margin-left: 10px;
+        margin-bottom: 6px;
+        h1 {
+          -webkit-text-stroke: 2px rgb(255, 255, 255);
+          -webkit-text-fill-color: transparent;
+          backdrop-filter: blur(10px);
+          font-size: 25px;
+        }
+
+        p {
+          color: rgba(255, 255, 255, 0.8);
+          font-size: 12px;
+        }
+      }
+    }
+
+    .contact-us {
+      .first {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .MuiSvgIcon-root {
+          font-size: 33px;
+          margin-right: 10px;
+          opacity: 0.6;
+        }
+        span {
+          font-size: 14px;
+        }
+        p {
+          color: rgba(214, 212, 212, 0.836);
+          margin: 2px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .navigation {
+    display: flex;
+    align-items: center;
+    width: 85%;
+    justify-content: space-around;
+    height: 70px;
+    border-top: 1px solid rgb(156, 154, 154);
+    transition: 0.5s all;
+
+    .options {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      position: relative;
+      align-items: center;
+
+      &:hover {
+        .active {
+          background: blue;
+          width: 100%;
+          transition: 0.7s all;
+        }
+      }
+
+      .active {
+        position: absolute;
+        height: 5px;
+        width: 0px;
+        background-color: transparent;
+        top: -3px;
+        left: 0;
+        transition: 0.3s all;
+      }
+
+      &:first-child {
+        align-items: flex-start;
+
+        .active {
+          background: blue;
+          width: 100%;
+        }
+
+        // &::before {
+        //   right: 20px;
+        // }
+      }
+      &:last-child {
+        align-items: flex-end;
+      }
+
+      // &:nth-last-child(2) {
+      //   &::before {
+      //     right: -20px;
+      //   }
+      // }
+
+      &::before {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 30%;
+        width: 1px;
+        height: 30px;
+        background-color: rgb(156, 154, 154);
+      }
+
+      &:last-child::before {
+        background-color: transparent;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 12px;
+        outline: none;
+      }
+
+      p {
+        font-size: 10px;
+        margin-top: 6px;
+        color: rgba(206, 202, 202, 0.8);
+        font-weight: bolder;
+      }
+    }
+  }
+}
+
+.scrolled {
+  background-color: rgb(37, 37, 173);
+  position: fixed;
+  z-index: 100000;
+  transition: 1s all;
+  flex-direction: row;
+  height: 80px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 1);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  opacity: 0;
+  animation: 1s fade-in linear forwards;
+
+  @keyframes fade-in {
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .upper {
+    width: 25%;
+
+    .contact-us {
+      display: none;
+    }
+  }
+
+  .navigation {
+    border: none;
+    margin-right: 30px;
+
+    .options {
+      position: relative;
+
+      .active {
+        background-color: red;
+        top: 89%;
+        bottom: 0px;
+        position: absolute;
+        height: 4px;
+      }
+      &:first-child {
+        .active {
+          background-color: rgb(230, 77, 103);
+          top: 89%;
+          bottom: 0px;
+          position: absolute;
+          height: 4px;
+        }
+      }
+
+      &:hover {
+        .active {
+          background-color: rgb(230, 77, 103);
+        }
+      }
+
+      &::before {
+        background: rgba(255, 255, 255, 0.7);
+      }
+
+      a {
+        font-weight: bolder;
+      }
+
+      p {
+        color: white;
+        opacity: 0.8;
+        font-size: 10px;
+      }
+    }
+  }
+}

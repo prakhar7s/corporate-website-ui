@@ -1,0 +1,38 @@
+.about-clients {
+  min-height: 440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  .statistics {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 250px;
+    padding: 40px 0;
+
+    .stats {
+      height: 50%;
+      width: 220px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      span {
+        &:first-child {
+          color: blue;
+          font-size: 30px;
+          margin-right: 20px;
+        }
+        &:last-child {
+          width: 40px;
+          font-size: 15px;
+          color: rgb(116, 112, 112);
+        }
+      }
+    }
+  }
+}

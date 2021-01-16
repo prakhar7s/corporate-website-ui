@@ -1,0 +1,217 @@
+.service-list {
+  height: 400px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .upper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 84%;
+    margin: auto;
+    position: absolute;
+    top: -70px;
+    background-color: white;
+    left: 8%;
+    height: 160px;
+    box-shadow: 0 0 20px rgba(133, 131, 131, 0.6);
+    border-radius: 7px;
+
+    .cards {
+      width: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100%;
+      position: relative;
+      cursor: pointer;
+      opacity: 0;
+      transition: 1s all;
+      animation: fade-in 1s linear forwards;
+
+      @keyframes fade-in {
+        100% {
+          opacity: 1;
+        }
+      }
+
+      &:hover {
+        background-color: rgb(81, 81, 255);
+        color: white;
+        transform: scale(1.2);
+        transform-origin: center;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
+        border-radius: 7px;
+        width: 170px;
+        transition: 0.4s all linear;
+        justify-content: flex-start;
+        padding-top: 25px;
+        height: 185px;
+
+        h1 {
+          color: white;
+        }
+        p {
+          color: white;
+        }
+
+        button {
+          display: block;
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+        }
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 50%;
+        height: 60px;
+        background-color: rgba(0, 0, 0, 0.4);
+        width: 1px;
+        transform: translate(-50%, -50%);
+      }
+
+      &:last-child::before {
+        background-color: transparent;
+      }
+
+      img {
+        width: 55px;
+        opacity: 0.5;
+      }
+
+      h1 {
+        font-size: 14px;
+        margin: 6px;
+        color: rgba(77, 77, 240, 0.719);
+      }
+
+      p {
+        font-size: 11px;
+        color: gray;
+      }
+
+      button {
+        background-color: white;
+        outline: none;
+        border: 0;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        color: rgb(16, 71, 250);
+        display: none;
+        font-weight: bolder;
+        margin-top: 12px;
+      }
+    }
+
+    .active-card {
+      background-color: rgb(81, 81, 255);
+      color: white;
+      transform: scale(1.2);
+      transform-origin: center;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
+      border-radius: 7px;
+      width: 170px;
+      transition: 0.6s all linear;
+      justify-content: flex-start;
+      padding-top: 25px;
+      height: 185px;
+
+      h1 {
+        color: white;
+      }
+      p {
+        color: white;
+      }
+
+      button {
+        display: block;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+
+  .lower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 160px;
+
+    h1 {
+      color: rgb(16, 112, 255);
+    }
+
+    .qualities {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 50%;
+      margin-top: 30px;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: -17px;
+        width: 64%;
+        left: 15%;
+        height: 1px;
+        background-color: rgba(121, 115, 115, 0.5);
+      }
+
+      span {
+        width: 90px;
+        height: 50px;
+        font-size: 14px;
+        position: relative;
+        color: rgb(16, 112, 255);
+        font-weight: 700;
+
+        &:first-child,
+        &:last-child {
+          color: gray;
+        }
+
+        &::before {
+          content: "";
+          position: absolute;
+          background-color: rgb(255, 255, 255);
+          width: 22px;
+          height: 22px;
+          border-radius: 50%;
+          top: 110%;
+          left: 17%;
+          box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+          border: 1px solid rgba(0, 0, 0, 0.2);
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          background-color: rgb(16, 112, 255);
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          top: 120%;
+          left: 22.5%;
+        }
+
+        &:first-child::before,
+        &:first-child::after,
+        &:last-child::before,
+        &:last-child::after {
+          background-color: rgba(121, 115, 115, 0.3);
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}

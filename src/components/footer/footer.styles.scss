@@ -1,0 +1,153 @@
+.footer {
+  min-height: 500px;
+  background: #041329;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  .part1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    color: white;
+    opacity: 0.8;
+
+    .about-web {
+      width: 60%;
+      margin-right: 80px;
+      h1 {
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 2px white;
+        font-size: 40px;
+        margin: 30px;
+        margin-left: 0;
+      }
+
+      p {
+        font-size: 12px;
+        line-height: 25px;
+      }
+
+      .social-media-links {
+        margin: 20px;
+        margin-left: 0;
+        display: flex;
+
+        .icons {
+          border: 1px solid rgb(36, 70, 182);
+          display: inline;
+          width: 45px;
+          height: 45px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-right: transparent;
+
+          &:last-child {
+            border: 1px solid rgb(36, 70, 182);
+          }
+
+          .MuiSvgIcon-root {
+            color: red;
+          }
+        }
+      }
+    }
+    .services-list,
+    .outlook {
+      width: 50%;
+      h1 {
+        font-size: 12px;
+        margin: 20px;
+      }
+
+      .list {
+        p {
+          margin: 8px;
+          span {
+            &:first-child {
+              margin-right: 20px;
+              font-size: 12px;
+            }
+
+            &:last-child {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+
+    .subscribe {
+      h1 {
+        font-size: 12px;
+        margin: 20px;
+        margin-left: 0;
+      }
+      p {
+        font-size: 12px;
+        line-height: 24px;
+      }
+
+      .inp {
+        width: 300px;
+        display: flex;
+        height: 35px;
+        margin: 20px;
+        margin-left: 0px;
+        input {
+          padding: 7px 10px;
+          outline: none;
+          position: relative;
+          width: 100%;
+        }
+
+        span {
+          background-color: #0078ff;
+          width: 18%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          user-select: none;
+        }
+      }
+    }
+  }
+
+  .part2 {
+    height: 90px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    padding-right: 100px;
+
+    .links {
+      width: 37%;
+      opacity: 0.8;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      span {
+        font-size: 15px;
+      }
+    }
+    p {
+      font-size: 15px;
+      opacity: 0.8;
+
+      span {
+        color: rgb(20, 212, 20);
+        opacity: 1;
+        font-weight: 700;
+      }
+    }
+  }
+}
