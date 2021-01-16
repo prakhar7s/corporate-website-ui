@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/corporate-website-ui/static/css/main.b3b98cab.chunk.css",
-    "main.js": "/corporate-website-ui/static/js/main.cabf3bb9.chunk.js",
-    "main.js.map": "/corporate-website-ui/static/js/main.cabf3bb9.chunk.js.map",
-    "runtime-main.js": "/corporate-website-ui/static/js/runtime-main.57169c94.js",
-    "runtime-main.js.map": "/corporate-website-ui/static/js/runtime-main.57169c94.js.map",
-    "static/js/2.83b1921c.chunk.js": "/corporate-website-ui/static/js/2.83b1921c.chunk.js",
-    "static/js/2.83b1921c.chunk.js.map": "/corporate-website-ui/static/js/2.83b1921c.chunk.js.map",
-    "static/js/3.2d1e5e07.chunk.js": "/corporate-website-ui/static/js/3.2d1e5e07.chunk.js",
-    "static/js/3.2d1e5e07.chunk.js.map": "/corporate-website-ui/static/js/3.2d1e5e07.chunk.js.map",
+    "main.css": "/corporate-website-ui/static/css/main.02ad6c2c.chunk.css",
+    "main.js": "/corporate-website-ui/static/js/main.89fd60b7.chunk.js",
+    "main.js.map": "/corporate-website-ui/static/js/main.89fd60b7.chunk.js.map",
+    "runtime-main.js": "/corporate-website-ui/static/js/runtime-main.f2b83379.js",
+    "runtime-main.js.map": "/corporate-website-ui/static/js/runtime-main.f2b83379.js.map",
+    "static/js/2.456d6936.chunk.js": "/corporate-website-ui/static/js/2.456d6936.chunk.js",
+    "static/js/2.456d6936.chunk.js.map": "/corporate-website-ui/static/js/2.456d6936.chunk.js.map",
+    "static/js/3.59aac08b.chunk.js": "/corporate-website-ui/static/js/3.59aac08b.chunk.js",
+    "static/js/3.59aac08b.chunk.js.map": "/corporate-website-ui/static/js/3.59aac08b.chunk.js.map",
     "index.html": "/corporate-website-ui/index.html",
-    "static/css/main.b3b98cab.chunk.css.map": "/corporate-website-ui/static/css/main.b3b98cab.chunk.css.map",
-    "static/js/2.83b1921c.chunk.js.LICENSE.txt": "/corporate-website-ui/static/js/2.83b1921c.chunk.js.LICENSE.txt",
+    "static/css/main.02ad6c2c.chunk.css.map": "/corporate-website-ui/static/css/main.02ad6c2c.chunk.css.map",
+    "static/js/2.456d6936.chunk.js.LICENSE.txt": "/corporate-website-ui/static/js/2.456d6936.chunk.js.LICENSE.txt",
     "static/media/airplane.6fdeb383.png": "/corporate-website-ui/static/media/airplane.6fdeb383.png",
     "static/media/airplane.81a30667.png": "/corporate-website-ui/static/media/airplane.81a30667.png",
     "static/media/App.css": "/corporate-website-ui/static/media/background.a0e963d0.jpg",
@@ -25,9 +25,9 @@
     "static/media/rocket.8eebeb48.png": "/corporate-website-ui/static/media/rocket.8eebeb48.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.57169c94.js",
-    "static/js/2.83b1921c.chunk.js",
-    "static/css/main.b3b98cab.chunk.css",
-    "static/js/main.cabf3bb9.chunk.js"
+    "static/js/runtime-main.f2b83379.js",
+    "static/js/2.456d6936.chunk.js",
+    "static/css/main.02ad6c2c.chunk.css",
+    "static/js/main.89fd60b7.chunk.js"
   ]
 }
