@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/corporate-website-ui/static/css/main.b3b98cab.chunk.css",
+    "main.js": "/corporate-website-ui/static/js/main.cabf3bb9.chunk.js",
+    "main.js.map": "/corporate-website-ui/static/js/main.cabf3bb9.chunk.js.map",
+    "runtime-main.js": "/corporate-website-ui/static/js/runtime-main.57169c94.js",
+    "runtime-main.js.map": "/corporate-website-ui/static/js/runtime-main.57169c94.js.map",
+    "static/js/2.83b1921c.chunk.js": "/corporate-website-ui/static/js/2.83b1921c.chunk.js",
+    "static/js/2.83b1921c.chunk.js.map": "/corporate-website-ui/static/js/2.83b1921c.chunk.js.map",
+    "static/js/3.2d1e5e07.chunk.js": "/corporate-website-ui/static/js/3.2d1e5e07.chunk.js",
+    "static/js/3.2d1e5e07.chunk.js.map": "/corporate-website-ui/static/js/3.2d1e5e07.chunk.js.map",
+    "index.html": "/corporate-website-ui/index.html",
+    "static/css/main.b3b98cab.chunk.css.map": "/corporate-website-ui/static/css/main.b3b98cab.chunk.css.map",
+    "static/js/2.83b1921c.chunk.js.LICENSE.txt": "/corporate-website-ui/static/js/2.83b1921c.chunk.js.LICENSE.txt",
+    "static/media/airplane.6fdeb383.png": "/corporate-website-ui/static/media/airplane.6fdeb383.png",
+    "static/media/airplane.81a30667.png": "/corporate-website-ui/static/media/airplane.81a30667.png",
+    "static/media/App.css": "/corporate-website-ui/static/media/background.a0e963d0.jpg",
+    "static/media/balloons.2f0e5023.png": "/corporate-website-ui/static/media/balloons.2f0e5023.png",
+    "static/media/balloons.b6b85c1f.png": "/corporate-website-ui/static/media/balloons.b6b85c1f.png",
+    "static/media/building.eb0b111f.png": "/corporate-website-ui/static/media/building.eb0b111f.png",
+    "static/media/car.735fb6dd.png": "/corporate-website-ui/static/media/car.735fb6dd.png",
+    "static/media/car.fa104e8f.png": "/corporate-website-ui/static/media/car.fa104e8f.png",
+    "static/media/map2.b4d835bd.png": "/corporate-website-ui/static/media/map2.b4d835bd.png",
+    "static/media/rocket.08f1779a.png": "/corporate-website-ui/static/media/rocket.08f1779a.png",
+    "static/media/rocket.8eebeb48.png": "/corporate-website-ui/static/media/rocket.8eebeb48.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57169c94.js",
+    "static/js/2.83b1921c.chunk.js",
+    "static/css/main.b3b98cab.chunk.css",
+    "static/js/main.cabf3bb9.chunk.js"
+  ]
+}
